@@ -1,0 +1,15 @@
+Ejemplo = $x('//h2/a/@href').map(x=>x.value)
+Links = //h2/a/@href
+Titulo = //div[@class="mb-auto"]/h2/span/text()
+Resumen = //div[@class="lead"]/p/text()
+Cuerpo = //div[@class="html-content"]/p//text()
+
+Links = //h2[@class]/a/@href
+Titulo = '//div/h2[@style]/span/text()'
+Resumen = //div[@class=“lead”]/p/text()
+Cuerpo = //div[@class=“html-content”]/p[not(@class)]/text()
+
+Links = //div[@class=“news V_Title_Img”]/a/@href
+Titulo = //div[@class=“mb-auto”]/h2/span/text()
+Resumen = //div[@class=“lead”]/p/text()
+Cuerpo = //div[@class=“html-content”]/p/text()
